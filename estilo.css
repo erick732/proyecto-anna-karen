@@ -1,0 +1,189 @@
+
+/* ESTILO GENERAL */
+body {
+    background: linear-gradient(135deg, #6fd687, #6952ce);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 30px 15px;
+}
+
+/* TARJETA DE LOGIN Y REGISTRO */
+.login-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgb(133, 78, 126);
+    box-shadow: 0 8px 25px rgba(88, 35, 232, 0.8);
+}
+
+/* TITULOS */
+.login-card h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #dd57a1;
+}
+
+/* ETIQUETAS */
+.form-label {
+    color: white;
+    font-weight: bold;
+}
+
+/* CAMPOS DE TEXTO */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid #dd57a1;
+}
+
+/* EFECTO AL SELECCIONAR UN CAMPO */
+.form-control:focus {
+    border-color: #6fd687;
+    box-shadow: 0 0 8px rgba(111, 214, 135, 0.7);
+}
+
+/* BOTONES */
+.btn-login {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+/* SECCIÓN DE REGISTRO */
+.registro {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ENLACES */
+a {
+    color: white;
+}
+
+
+/* CONTENEDOR DE TARJETAS */
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 25px;
+    justify-content: center;
+    padding: 30px;
+}
+
+/* TARJETAS */
+.contenedor-tarjetas .card {
+    width: 280px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* IMÁGENES */
+.contenedor-tarjetas .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* CONTENIDO */
+.contenedor-tarjetas .card-body {
+    padding: 15px;
+}
+
+/* TÍTULOS */
+.contenedor-tarjetas .card-title {
+    margin-bottom: 10px;
+}
+
+/* BOTONES */
+.contenedor-tarjetas .btn-solid {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+.contenedor-tarjetas .card:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+} 
+
+
+/* FONDO GENERAL */
+body {
+    background: #e9edf3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 30px;
+}
+
+/* CONTENEDOR DE TARJETAS */
+.contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 25px;
+
+    justify-content: center;
+    align-items: stretch;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* TARJETAS */
+.contenedor-tarjetas .card {
+    width: 280px;
+    background: white;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: transform 0.2s;
+}
+
+/* EFECTO AL PASAR EL CURSOR */
+.contenedor-tarjetas .card:hover {
+    transform: translateY(-5px);
+}
+
+/* IMÁGENES */
+.contenedor-tarjetas .card-img-top {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+/* CONTENIDO */
+.contenedor-tarjetas .card-body {
+    padding: 18px;
+}
+
+/* TÍTULOS */
+.contenedor-tarjetas .card-title {
+    font-size: 19px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* DESCRIPCIONES */
+.contenedor-tarjetas .card-text {
+    color: #666;
+    font-size: 14px;
+}
+
+/* BOTONES */
+.contenedor-tarjetas .btn-solid {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+/* DÉCIMA TARJETA CENTRADA */
+.contenedor-tarjetas .card:last-child:nth-child(3n + 1) {
+    grid-column: 2;
+}
