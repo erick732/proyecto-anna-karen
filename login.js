@@ -1,4 +1,4 @@
-
+/*ESTE CODIGO ES PARA ALGO JAJAS*/
 const formLogin = document.getElementById('formLogin');
 
 formLogin.addEventListener('submit', function(event) {
